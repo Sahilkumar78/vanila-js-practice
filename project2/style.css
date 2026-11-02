@@ -1,0 +1,50 @@
+html, body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     box-sizing: border-box;
+     background: black;
+     color: white;
+}
+
+container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10vw;
+     
+}
+
+#counter{
+     font-size: 5vw;
+}
+
+.group-btn{
+    display: flex;
+    /* background: red; */
+    /* padding: 3vw; */
+    gap: 50px;
+}
+
+#minus{
+     padding: 1vw 4vw;
+     cursor: pointer;
+     border-radius: 50px;
+     border: none;
+     font-size: 2vw;
+}
+
+#zero{
+       padding: 1vw 4vw;
+     cursor: pointer;
+     border-radius: 50px;
+     border: none;
+}
+
+#plus{
+       padding: 1vw 4vw;
+     cursor: pointer;
+     border-radius: 50px;
+     border: none;
+}
