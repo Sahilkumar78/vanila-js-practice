@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <button id="menuBtn" class="menu-btn">
+            ☰
+        </button>
+        <h2>My Dashboard</h2>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="logo">
+            MyApp
+        </div>
+
+        <ul class="nav-links">
+            <li class="active">
+                <a href="#">🏠 Dashboard</a>
+            </li>
+
+            <li>
+                <a href="#">📊 Analytics</a>
+            </li>
+
+            <li>
+                <a href="#">💬 Messages</a>
+            </li>
+
+            <li>
+                <a href="#">⚙️ Settings</a>
+            </li>
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1>Welcome Back!</h1>
+        <p>This is your dashboard content.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
