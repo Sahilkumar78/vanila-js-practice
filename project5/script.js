@@ -1,23 +1,18 @@
+const toggleBtn = document.querySelector('.sidebar-toggle');
+const closeBtn = document.querySelector('.close-btn');
+const sidebar = document.querySelector('.sidebar');
 
-const menuBtn = document.getElementById("menuBtn");
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("overlay");
 
+toggleBtn.addEventListener('click', function(){
+     
+      if(toggleBtn.classList.contains('show-sidebar')){
+         sidebar.classList.remove('show-sidebar');
+      }else{
+        sidebar.classList.add('show-sidebar')
+      }
+})
 
-// Open and close sidebar
-menuBtn.addEventListener("click", () => {
-
-    sidebar.classList.toggle("open");
-
-    overlay.classList.toggle("show");
-
-});
-
-// Close sidebar when overlay is clicked
-overlay.addEventListener("click", () => {
-
-    sidebar.classList.remove("open");
-
-    overlay.classList.remove("show");
-
-});
+closeBtn.addEventListener('click', function(){
+     
+     sidebar.classList.remove('show-sidebar');
+})

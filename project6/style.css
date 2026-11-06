@@ -1,0 +1,46 @@
+html, body{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     background-image: url(https://imgs.search.brave.com/YvXmyTX7lRAMPRt0DNbzjCjkyBW_ECk0RwvPDxfFGvY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzkwLzI3LzM4/LzM2MF9GXzI5MDI3/MzgwNV9EbXNpd1o1/YTdycmpONHdvbHVH/UjBkM2JHVU9ZZmlY/ai5qcGc);
+     background-size: cover;
+}
+
+.hero{
+     position: absolute;
+     top: 23vw;
+     left: 45vw;
+     background: whitesmoke;
+     padding: 5vw 5vw; 
+     text-align: center;
+}
+
+.banner .btn{
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     background-color: blueviolet;
+     color: white;
+
+}
+
+.model-overlay{
+     position: absolute;
+     top: 23vw;
+     left: 45vw;
+     background: whitesmoke;
+     padding: 5vw 5vw; 
+     text-align: center;
+     visibility: hidden;
+}
+
+.open-modal{
+     visibility: visible;
+}
+
+.close-btn{
+     padding: 2px 15px;
+     border-radius: 5px;
+}

@@ -4,54 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Sidebar</title>
+    <title>Sidebar Project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <button id="menuBtn" class="menu-btn">
-            ☰
+    <nav>
+        <h1>Sidebar Project</h1>
+
+        <button class="sidebar-toggle">
+            <i class="fa-solid fa-bars"></i>
         </button>
-        <h2>My Dashboard</h2>
     </nav>
 
-    <!-- Overlay -->
-    <div class="overlay" id="overlay"></div>
+    <aside class="sidebar">
 
-    <!-- Sidebar -->
-    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h1>Side Bar</h1>
 
-        <div class="logo">
-            MyApp
+            <button class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
         </div>
 
-        <ul class="nav-links">
-            <li class="active">
-                <a href="#">🏠 Dashboard</a>
-            </li>
-
-            <li>
-                <a href="#">📊 Analytics</a>
-            </li>
-
-            <li>
-                <a href="#">💬 Messages</a>
-            </li>
-
-            <li>
-                <a href="#">⚙️ Settings</a>
-            </li>
-        </ul>
+        <div class="sidebar-links">
+            <h3>Home</h3>
+            <h3>Features</h3>
+            <h3>About</h3>
+            <h3>Contact Us</h3>
+        </div>
 
     </aside>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <h1>Welcome Back!</h1>
-        <p>This is your dashboard content.</p>
-    </main>
 
     <script src="script.js"></script>
 </body>
