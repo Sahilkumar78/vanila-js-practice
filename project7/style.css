@@ -1,0 +1,83 @@
+html, body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+
+}
+
+
+.questions{
+     width: 90%;
+     max-width: 600px;
+     margin: 100px auto;
+}
+
+.title{
+     text-align: center;
+     margin-bottom: 40px;
+}
+
+.title h1{
+     font-size: 32px;
+     color: #102a42;
+}
+
+.question {
+     background: white;
+     border-radius: 8px;
+     padding: 20px 25px;
+     margin-bottom: 25px;
+     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-title p {
+    font-size: 17px;
+    color: #102a42;
+    font-weight: bold;
+}
+
+.question-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #c59d5f;
+}
+
+.question-text {
+    display: none;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.question-text p {
+    color: #617d98;
+    line-height: 1.6;
+}
+
+.show-text .question-text {
+    display: block;
+}
+
+
+/* Initially hide minus */
+.minus-icon {
+    display: none;
+}
+
+/* When question is open */
+.show-text .minus-icon {
+    display: inline;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
